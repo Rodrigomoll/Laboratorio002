@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet"
+    />
+    <!--Nuestros estilos -->
+    <link rel="stylesheet" href="./css/estilos.css"/> 
+
+</head>
+<body>
+    <div class="raiz">
+        <nav>
+            <h1>Restaurante</h1>
+        </nav>
+        <div class="principal">
+            <nav class="menu">
+                <ul>
+                    <li>Platos</li>
+                    <li>Bebidas</li>
+                </ul>
+            </nav>
+            <main id="contenido">
+
+            </main>
+        </div>
+    </div>
+
+    <div class="carrito">
+        <p id="fecha"></p>
+        <table>
+            <!--Table Head-->
+            <thead>
+                <tr>
+                    <th>Platillo</th>
+                    <th>Cantidad</th>
+                    <th>P.Unit.</th>
+                    <th>SubTotal</th>
+                </tr>
+            </thead>
+            <!--Table Body-->
+            <tbody id="tbody-carrito">
+                <!--items de la boleta-->
+            </tbody>
+        </table>
+
+        <div class="resumen">
+            <table>
+                <tbody id="tbody-resumen">
+
+                </tbody>
+            </table>
+            <button id="btn-pagar">
+                Pagar la orden
+            </button>
+        </div>
+    </div>
+    
+
+    <script src="./js/main.js">
+
+    </script>
+</body>
+</html>
